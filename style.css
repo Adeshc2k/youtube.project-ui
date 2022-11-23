@@ -1,0 +1,91 @@
+/* brand img css */
+
+.logo-img{
+    width:2rem;
+    margin-right: 1rem;
+}
+
+/* brand name css */
+
+.navbar-brand{
+    font-weight: bolder;
+}
+
+/* search box css */
+
+.d-flex{
+    width: 40%;
+    margin-left: 12rem;
+    border-radius: 2rem;
+}
+
+/* navbar logos css */
+
+.bi{
+    margin-right: 2rem;
+    font-size: 2rem;;
+}
+
+/* options for entertenment */
+
+.buttons{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.btn-list{
+    margin-left: 2.5rem;
+    
+}
+
+/* list of logo */
+li{
+    list-style: none;
+    margin-top: 2rem;
+}
+
+ul{
+    display: inline-block;
+}
+.tv-9{
+    width:20rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+   
+}
+
+.channel-logo{
+    width: 2.5rem;
+    margin-left:2rem ;
+    margin-top: 1rem;
+}
+
+.headlines{
+    margin-left: 5rem;
+    
+}
+.song-logo{
+    width: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 8rem;
+    margin-top: 1rem;
+}
+
+.grid-img{
+    width:20rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.logo-png{
+    width: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 8rem;
+    margin-top: 1rem;
+}
+img{
+    transition: all 0.5 ease-in-out;
+}
+
+img:hover{
+    transform:scale(1.3);
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> youtube </title>
+    <link rel="shortcut icon" href="images/youtube.logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+
+</head>
+<body>
+    <!-- navbar html -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img class="logo-img" src="images/youtube.logo.png" alt="">
+          <a class="navbar-brand" href="#">YouTube</a>
+          
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+           
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+
+            </form>
+          </div>
+          <div>
+            <i class="bi bi-camera-video"></i>
+            <i class="bi bi-bell-fill"></i>
+            <i class="bi bi-gear-fill"></i>
+
+          </div>
+          
+        </div>
+      </nav>
+
+<!-- options buttons html -->
+
+<div class="buttons">
+<div class="btn-list">
+    <button type="button" class="btn btn-light">ALL</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">HTML</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">CSS</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">JAVASCRIPT</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">ANGULAR</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">SONGS</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">MOVIES</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">MASALA</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">GAMES</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">PROJECT</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">ANIMALS</button>
+</div>
+
+<div class="btn-list">
+    <button type="button" class="btn btn-light">CARTOON</button>
+</div>
+
+</div>
+
+   <!-- <ul>
+<li><i class="bi bi-house-fill"></i> </li>
+<li><i class="bi bi-camera-reels"></i> </li>
+<li><i class="bi bi-bag-fill"></i></li>
+<li><i class="bi bi-collection-play"></i></li>
+
+   </ul>  -->
+
+<!-- youtube content html -->
+
+   <div class="row">
+<div class="col-lg-3">
+
+    <img class="tv-9" src="https://i.ytimg.com/vi/8A2zcc7Bgjg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJNQju3euRmPdzYy_c0Evx2nRoXg" alt="">
+    <img class="channel-logo" src="https://yt3.ggpht.com/6sAsc_Al0VOPwmG5ho1zFlIakY_6eCMJUzRrz88UYQZzZTJ1UePU5CUOvFFrhZf62WmrKLAIbw4=s176-c-k-c0x00ffffff-no-rj" alt="">
+   <span ><b>TV 9 Marathi | SperFast 4 min 24 <span class="headlines"> </b></span></span> 
+</div>
+
+<div class="col-lg-3">
+    
+    <img onclick="playSong()"   class="tv-9" id="song-play" src="https://i.ytimg.com/vi/2gw7bVh3Hnc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqmifuQ2OdcaAyCjEiDpsekuD6WQ" alt="">
+    <link rel="stylesheet" href="https://soundcloud.com/mjtheboss/raaz-3-01-deewana-kar-raha-hai?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+    <img class="song-logo" src="https://yt3.ggpht.com/gmDeSOhtXGeWvV8pGLAHXu0jS3oAZV5Oa1rPovUdQFkuYWBfUJf0Fbk9P2diERR8_ROQOLVF9JA=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <span> <b> Best Of Emran Hashmi songs | TOP 10 <span class="headlines"></span> </b> </span>
+</div>
+
+<div class="col-lg-3">
+    <img class="tv-9" src="https://i.ytimg.com/vi/B90qzlI9NlI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhKICgofzAP&rs=AOn4CLAU4VxgGhujJXlAiE8xP1heHknNvg" alt="">
+    <img class="song-logo" src="https://yt3.ggpht.com/Vhx6_17WCWzWmg2t0zJbn02R1eOHl5CEhKoGbaMJQj64o_sWSCsdJJLxF1RBxfuTm5D2RTPvSNU=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <span><b>Interview Qestions on Javascript</b></span>
+</div>
+
+<div class="col-lg-3">
+    <img class="tv-9" src="https://i.ytimg.com/vi/NDlW5ihu3js/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvuGuhAKqC8jSIO_qPiPzaBLEuAw" alt="">
+   <img class="song-logo" src="https://yt3.ggpht.com/Vvo-OMj7hW3JnPzGEBko98-60kAtL9NmEgOetc2PhgEPKF5H-bHBa8cwsQ1UXaG3jffG97bLuw=s176-c-k-c0x00ffffff-no-rj" alt="">
+   <span><b>IND VD NZ Match Highlights 2022</b></span>
+</div>
+
+
+   </div>
+ 
+   <!-- 2 row of youtube  -->
+  
+   
+<div class="row">
+    <div class="col-lg-3">
+        <img class="grid-img" src="https://i.ytimg.com/vi/wEUPzdCDHSs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYivLaNpRGMiMBy6eP8wxhu8vaHQ" alt="">
+        <img class="logo-png" src="https://yt3.ggpht.com/ytc/AMLnZu-ocbM5gQyhqBvqn72B8gmsxFe6TQlg6rx248VEsA=s176-c-k-c0x00ffffff-no-rj" alt="">
+        <span><b>Sonu sharma motivation speech</b>  </span>
+    </div> 
+
+    <div class="col-lg-3">
+        <img class="grid-img" src="https://i.ytimg.com/vi/5_bKtElb_s8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFgoNDAP&rs=AOn4CLC130xWeCO93BGnf5DsqRSqtg2hYA" alt="">
+        <img class="logo-png" src="https://yt3.ggpht.com/ytc/AMLnZu-TAuISIqTgBsSp37g5AmLgPzX3zjuMTTuSp7d7=s176-c-k-c0x00ffffff-no-rj" alt="">
+        <span><b>morning songs gods</b>  </span>
+    </div>
+
+    <div class="col-lg-3">
+        <img class="grid-img" src="https://i.ytimg.com/vi/ITWx8KvImys/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD28sAY7K26aS2PHo9-dX0hP4pS2w" alt="">
+        <img class="logo-png" src="https://yt3.ggpht.com/ytc/AMLnZu-TAuISIqTgBsSp37g5AmLgPzX3zjuMTTuSp7d7=s176-c-k-c0x00ffffff-no-rj" alt="">
+        <span><b>Akshay Kumar Best Song</b>  </span>
+    </div>
+
+    <div class="col-lg-3">
+        <img class="grid-img" src="https://i.ytimg.com/vi/c5nBTUBBuWY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKRtNujzpD7c6YVJduSRPWdipGsg" alt="">
+        <img class="logo-png"src="https://yt3.ggpht.com/ytc/AMLnZu-TAuISIqTgBsSp37g5AmLgPzX3zjuMTTuSp7d7=s176-c-k-c0x00ffffff-no-rj" alt="">
+        <span><b>Top sad songs |most palyed</b>  </span>
+    </div>
+</div>
+
+
+<!-- 3rd row youtube -->
+
+<div class="row">
+<div class="col-lg-3">
+    <img class="grid-img" src="https://i.ytimg.com/vi/Re2chbi7wjc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXnP_kqXGGNiRvxPQbSjCs18ITZA" alt="">
+    <img class="logo-png" src="https://yt3.ggpht.com/q49XgZCI0cvcwMDiCj5tMwLMgV3y4QcTGmueY0_oVeZ6wQe4HD4DnJA83k3wcYTmidj6xxly=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <span><b>EK gav tera bhangadi Episode 22</b></span>
+</div>
+
+<div class="col-lg-3">
+    <img class="grid-img" src="https://i.ytimg.com/vi/gDqdoBq8SSM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChu7_GBC5xtpT_KUkmomezi-ISNQ" alt="">
+    <img class="logo-png" src="https://yt3.ggpht.com/q49XgZCI0cvcwMDiCj5tMwLMgV3y4QcTGmueY0_oVeZ6wQe4HD4DnJA83k3wcYTmidj6xxly=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <span><b>EK duje ke vaste Season 2</b></span>
+</div>
+
+<div class="col-lg-3">
+    <img class="grid-img" src="https://i.ytimg.com/vi/04y0H01GTg0/hq720_live.jpg?sqp=CODt9psG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfsGvifUyEWKNDcWQyHLTA3bpm9Q" alt="">
+    <img class="logo-png" src="https://yt3.ggpht.com/q49XgZCI0cvcwMDiCj5tMwLMgV3y4QcTGmueY0_oVeZ6wQe4HD4DnJA83k3wcYTmidj6xxly=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <span><b>TV 9 Marathi live || </b></span>
+</div>
+
+<div class="col-lg-3">
+    <img class="grid-img" src="https://i.ytimg.com/vi/fSp2C7QPH8M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsgjMrETb_EkqrWvIvFEjovWOidw" alt="">
+    <img class="logo-png" src="https://yt3.ggpht.com/q49XgZCI0cvcwMDiCj5tMwLMgV3y4QcTGmueY0_oVeZ6wQe4HD4DnJA83k3wcYTmidj6xxly=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <span><b>React js Full course In one Vidio</b></span>
+</div>
+
+</div>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
